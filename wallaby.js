@@ -9,6 +9,9 @@ module.exports = () => {
     tests: [
       'test/*Spec.js'
     ],
+    env: {
+      kind: 'chrome'
+    },
     debug: true
   };
 };
